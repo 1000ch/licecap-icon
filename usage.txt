@@ -1,0 +1,11 @@
+Usage
+  $ licecap-icon
+
+Options
+  --version, -v Output version
+  --help, -h Output help
+  --icon, -i Specify the icon path to set
+
+Examples
+  $ licecap-icon
+  $ licecap-icon --icon=path/to/icon.icns

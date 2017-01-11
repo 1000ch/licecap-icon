@@ -1,0 +1,35 @@
+{
+  "name": "licecap-icon",
+  "version": "0.0.0",
+  "description": "Utility for LICEcap to set or replace its icon",
+  "scripts": {
+    "postversion": "git push && git push --tags"
+  },
+  "bin": {
+    "licecap-icon": "cli.js"
+  },
+  "repository": "1000ch/licecap-icon",
+  "keywords": [
+    "licecap",
+    "icon"
+  ],
+  "author": {
+    "name": "1000ch",
+    "email": "shogo.sensui@gmail.com",
+    "web": "https://github.com/1000ch"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/1000ch/licecap-icon/issues"
+  },
+  "homepage": "https://github.com/1000ch/licecap-icon#readme",
+  "dependencies": {
+    "execa": "^0.6.0",
+    "fkill": "^4.1.0",
+    "inquirer": "^2.0.0",
+    "minimist": "^1.2.0",
+    "ora": "^0.4.0",
+    "rimraf": "^2.5.4",
+    "tempfile": "^1.1.1"
+  }
+}
