@@ -1,6 +1,6 @@
 {
   "name": "licecap-icon",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Utility for LICEcap to set or replace its icon",
   "scripts": {
     "postversion": "git push && git push --tags"
